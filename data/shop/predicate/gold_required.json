@@ -1,0 +1,12 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:storage",
+    "storage": "shop:temp",
+    "path": "gold_price"
+  },
+  "range": {
+    "min": 1,
+    "max": 99
+  }
+}
