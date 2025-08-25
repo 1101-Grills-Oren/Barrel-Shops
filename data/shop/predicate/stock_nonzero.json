@@ -1,0 +1,11 @@
+{
+  "condition": "minecraft:value_check",
+  "value": {
+    "type": "minecraft:storage",
+    "storage": "shop:temp",
+    "path": "stock"
+  },
+  "range": {
+    "min": 1
+  }
+}
