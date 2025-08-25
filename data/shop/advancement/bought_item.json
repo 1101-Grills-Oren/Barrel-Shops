@@ -1,0 +1,22 @@
+{
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "slots": {
+            "player.cursor": {
+              "predicates": {
+                "minecraft:custom_data": "{\"shop\": {\"bought\": false}}"
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shop:shop_buy_item"
+  },
+  "sends_telemetry_event": false
+}

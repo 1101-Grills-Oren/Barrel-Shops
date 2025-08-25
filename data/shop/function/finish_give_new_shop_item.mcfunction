@@ -1,0 +1,1 @@
+$execute at @p run summon item ~ ~ ~ {PickupDelay:0,Item:{id:"$(id)",count:$(count),components:$(components)}}

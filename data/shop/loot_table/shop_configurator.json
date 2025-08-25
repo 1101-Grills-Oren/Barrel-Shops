@@ -1,0 +1,58 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pig_spawn_egg",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:entity_data": {
+                  "id": "minecraft:armor_stand",
+                  "HasVisualFire": 0,
+                  "OnGround": 1,
+                  "NoGravity": 1,
+                  "Invulnerable": 1,
+                  "CustomNameVisible": 0,
+                  "Silent": 1,
+                  "Glowing": 0,
+                  "Tags": [
+                    "setup_block",
+                    "shop_config"
+                  ],
+                  "NoAI": 1,
+                  "Invisible": 1,
+                  "Marker": 1,
+                  "NoBasePlate": 1,
+                  "ShowArms": 0
+                },
+                "minecraft:item_model": "minecraft:player_head",
+                "minecraft:item_name": "{\"color\":\"#1F30ff\",\"italic\":false,\"text\":\"Shop Configurator\"}",
+                "minecraft:custom_data": {
+                  "custom_block": "shop_config"
+                },
+                "minecraft:profile": {
+                  "id": [
+                    964276231,
+                    -288534935,
+                    -1275237935,
+                    -1202727934
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRkNDliYWU5NWM3OTBjM2IxZmY1YjJmMDEwNTJhNzE0ZDYxODU0ODFkNWIxYzg1OTMwYjNmOTlkMjMyMTY3NCJ9fX0="
+                    }
+                  ]
+                }
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

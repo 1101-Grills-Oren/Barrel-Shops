@@ -1,0 +1,456 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"Decrease Gold Price\",\"color\":\"gold\",\"italic\":false}",
+                "minecraft:profile": {
+                  "id": [
+                    -1587780139,
+                    -747484976,
+                    -1739605109,
+                    -1124764761
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4OWFhMjljYjUwMzU5YzlhYzU3M2U4NmM4ZWIwNzIxMTk3Nzk2Y2ZhYjQzZmY1Y2UxNzMzODViOWRmMmVkMSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_data": "{on_click:{command:\"shop:decrease_item_amount_1 {slot:'container.14'}\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.23\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"Decrease Iron Price\",\"color\":\"gray\",\"italic\":false}",
+                "minecraft:profile": {
+                  "id": [
+                    -1587780139,
+                    -747484976,
+                    -1739605109,
+                    -1124764761
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM4OWFhMjljYjUwMzU5YzlhYzU3M2U4NmM4ZWIwNzIxMTk3Nzk2Y2ZhYjQzZmY1Y2UxNzMzODViOWRmMmVkMSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_data": "{on_click:{command:\"shop:decrease_item_amount_1 {slot:'container.12'}\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.21\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"Increase Iron Price\",\"color\":\"gray\",\"italic\":false}",
+                "minecraft:profile": {
+                  "id": [
+                    228826006,
+                    44254461,
+                    -1275041244,
+                    -1553665624
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM1YzdlNTM2OTVkODhmNGQzMWY1MmY0M2ZhYzYwOWFkOWU2MmJjOTdkNDlmYzUwNDE3NGRmZGI4NDE1MGMzOSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_data": "{on_click:{command:\"shop:increase_item_amount_1 {slot:'container.12',item_id:'iron_ingot',item:'iron_ingot'}\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.3\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:player_head",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_name": "{\"text\":\"Increase Gold Price\",\"color\":\"gold\",\"italic\":false}",
+                "minecraft:profile": {
+                  "id": [
+                    228826006,
+                    44254461,
+                    -1275041244,
+                    -1553665624
+                  ],
+                  "properties": [
+                    {
+                      "name": "textures",
+                      "value": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWM1YzdlNTM2OTVkODhmNGQzMWY1MmY0M2ZhYzYwOWFkOWU2MmJjOTdkNDlmYzUwNDE3NGRmZGI4NDE1MGMzOSJ9fX0="
+                    }
+                  ]
+                },
+                "minecraft:custom_data": "{on_click:{command:\"shop:increase_item_amount_1 {slot:'container.14',item_id:'gold_ingot',item:'gold_ingot'}\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.5\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.0\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.1\"}}",
+                "minecraft:hide_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.2\"}}",
+                "minecraft:hide_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"shop:create_new_shop_item\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.4\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.6\"}}",
+                "minecraft:hide_tooltip": {}
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.7\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.8\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.9\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.10\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.16\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.17\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.18\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.19\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.20\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.22\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.24\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.25\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gray_stained_glass_pane",
+          "functions": [
+            {
+              "function": "minecraft:set_components",
+              "components": {
+                "minecraft:hide_tooltip": {},
+                "minecraft:custom_data": "{on_click:{command:\"\",condition:\"block ~ ~ ~ #shop:storage\",slot:\"container.26\"}}"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

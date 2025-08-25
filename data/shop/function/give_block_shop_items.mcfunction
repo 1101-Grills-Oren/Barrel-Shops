@@ -1,0 +1,1 @@
+give @p dirt[minecraft:custom_data={shop:{bought:false},iron_price:2,gold_price:1,resultitem:{id:"glass_block",count:7,components:{"minecraft:custom_data":{"todo":"murder lachlan"}}}}]

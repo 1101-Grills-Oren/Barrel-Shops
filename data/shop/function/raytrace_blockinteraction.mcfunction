@@ -1,0 +1,2 @@
+execute positioned ^ ^ ^0.1 unless block ~ ~ ~ #shop:container run function shop:raytrace_blockinteraction
+execute positioned ^ ^ ^0.1 if block ~ ~ ~ #shop:container align xyz positioned ~0.5 ~0.5 ~0.5 run function shop:blockinteraction_finish

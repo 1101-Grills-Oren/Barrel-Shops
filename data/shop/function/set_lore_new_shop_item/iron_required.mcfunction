@@ -1,0 +1,1 @@
+$execute as @n[type=armor_stand,tag=temp_item] unless predicate shop:gold_required if predicate shop:iron_required run data modify entity @n[type=armor_stand,tag=temp_item] HandItems[0].components."minecraft:lore" set value ['{text:"$(iron_price) Iron",italic:false,color:gold}']

@@ -1,0 +1,1 @@
+data modify storage shop:temp gold_price set from entity @n[type=armor_stand,tag=temp_item] HandItems[0].components."minecraft:custom_data".gold_price

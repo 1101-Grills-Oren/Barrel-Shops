@@ -1,0 +1,3 @@
+function shop:set_lore_new_shop_item/gold_required_iron_required with entity @n[type=armor_stand,tag=temp_item] HandItems[0].components."minecraft:custom_data"
+function shop:set_lore_new_shop_item/gold_required with entity @n[type=armor_stand,tag=temp_item] HandItems[0].components."minecraft:custom_data"
+function shop:set_lore_new_shop_item/iron_required with entity @n[type=armor_stand,tag=temp_item] HandItems[0].components."minecraft:custom_data"

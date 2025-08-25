@@ -1,0 +1,25 @@
+{
+  "criteria": {
+    "shop_itemizer_used": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": {
+          "slots": {
+            "player.cursor": {
+              "predicates": {
+                "minecraft:custom_data": {
+                  "on_click": {}
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  },
+  "rewards": {
+    "function": "shop:on_click"
+  }
+}
+
+

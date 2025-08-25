@@ -1,0 +1,26 @@
+{
+  "criteria": {
+    "player_moved": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "movement": {
+                "speed": {
+                  "min": 0.01,
+                  "max": 9999
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "shop:unlock_inventory"
+  }
+}
